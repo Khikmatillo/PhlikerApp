@@ -31,12 +31,12 @@
                 <ImageView fx:id="imageView" fitHeight="370.0" fitWidth="671.0" pickOnBounds="true" preserveRatio="true"
                            GridPane.columnIndex="1" GridPane.rowIndex="1">
                 </ImageView>
-                <Button fx:id="prevButton" mnemonicParsing="false" onAction="#prevImage" text="Prev"
+                <Button fx:id="prevButton" mnemonicParsing="false" disable="true" onAction="#prevImage" text="Prev"
                         GridPane.rowIndex="1"/>
-                <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextImage" text="Next"
+                <Button fx:id="nextButton" mnemonicParsing="false" disable="true" onAction="#nextImage" text="Next"
                         GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-                <Label fx:id="title" text="Title" GridPane.columnIndex="1"/>
-                <Label fx:id="counter" text="1 of 10 images" GridPane.columnIndex="2"/>
+                <Label fx:id="title" text="Search images..." GridPane.columnIndex="1"/>
+                <Label fx:id="counter" GridPane.columnIndex="2"/>
                 <ImageView fx:id="loaderImageView" fitHeight="100.0" fitWidth="200.0" pickOnBounds="true"
                            preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
                 <TextFlow prefHeight="200.0" prefWidth="200.0" textAlignment="JUSTIFY" GridPane.columnIndex="1"
